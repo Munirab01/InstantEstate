@@ -1,0 +1,121 @@
+export const listData = [ 
+  {
+    id: 1,
+    title: "Luxury Apartment with Sea View",
+    img: "https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    bedroom: 3,
+    bathroom: 2,
+    price: 2000 ,
+    address: "Marine Drive, Mumbai",
+    latitude: 18.9440,
+    longitude: 72.8237,
+  },
+  {
+    id: 2,
+    title: "Spacious Flat Near Juhu Beach",
+    img: "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    bedroom: 2,
+    bathroom: 2,
+    price: 1800,
+    address: "Juhu Beach Road, Mumbai",
+    latitude: 19.1002,
+    longitude: 72.8263,
+  },
+  {
+    id: 3,
+    title: "Affordable 1 BHK in Andheri",
+    img: "https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    bedroom: 1,
+    bathroom: 1,
+    price: 1200,
+    address: "Andheri West, Mumbai",
+    latitude: 19.1197,
+    longitude: 72.8479,
+  },
+  {
+    id: 4,
+    title: "Modern Apartment in Powai",
+    img: "https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    bedroom: 2,
+    bathroom: 2,
+    price: 1600,
+    address: "Powai, Mumbai",
+    latitude: 19.1190,
+    longitude: 72.9047,
+  },
+  {
+    id: 5,
+    title: "Luxury Condo in Bandra",
+    img: "https://images.pexels.com/photos/2467285/pexels-photo-2467285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    bedroom: 3,
+    bathroom: 3,
+    price: 2200,
+    address: "Bandra West, Mumbai",
+    latitude: 19.0595,
+    longitude: 72.8302,
+  },
+  {
+    id: 6,
+    title: "Affordable Flat in Borivali",
+    img: "https://images.pexels.com/photos/276625/pexels-photo-276625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    bedroom: 2,
+    bathroom: 1,
+    price: 1400,
+    address: "Borivali West, Mumbai",
+    latitude: 19.2290,
+    longitude: 72.8577,
+  },
+  {
+    id: 7,
+    title: "1 BHK Apartment in Vashi",
+    img: "https://images.pexels.com/photos/2029667/pexels-photo-2029667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    bedroom: 1,
+    bathroom: 1,
+    price: 1000,
+    address: "Vashi, Navi Mumbai",
+    latitude: 19.0770,
+    longitude: 73.0072,
+  },
+  {
+    id: 8,
+    title: "Modern Studio in Lower Parel",
+    img: "https://images.pexels.com/photos/1428348/pexels-photo-1428348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    bedroom: 1,
+    bathroom: 1,
+    price: 1500,
+    address: "Lower Parel, Mumbai",
+    latitude: 18.9929,
+    longitude: 72.8305,
+  },
+];
+
+export const singlePostData = { 
+  id: 1,
+  title: "Beautiful Apartment in South Mumbai",
+  price: 120000, // Updated price for Mumbai in INR
+  images: [
+    "https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/1428348/pexels-photo-1428348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/2467285/pexels-photo-2467285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  ],
+  bedRooms: 2,
+  bathroom: 1,
+  size: 861, // Size in square feet
+  latitude: 18.9440,  // Updated to Mumbai location
+  longitude: 72.8237,  // Updated to Mumbai location
+  city: "Mumbai",
+  address: "1234 Marine Drive, South Mumbai",
+  school: "300m away",
+  bus: "150m away",
+  restaurant: "75m away",
+  description:
+    "A stunning apartment located in the heart of South Mumbai, with a picturesque view of the Arabian Sea. Perfect for those looking for a peaceful yet connected location. Close to premium schools, fine-dining restaurants, and local transport hubs, this apartment offers the best of Mumbai living. The spacious interiors are perfect for families or working professionals, providing a comfortable living experience in one of the city's most prestigious locations.",
+};
+
+export const userData = {
+  id: 1,
+  name: "Raj Mehta",
+  img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+};
+

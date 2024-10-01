@@ -1,0 +1,17 @@
+.popContainer{
+    display: flex;
+    gap: 20px;
+
+    img{
+        height: 48px;
+        width: 64px;
+        border-radius: 5px;
+        object-fit: cover;
+    }
+
+    .textContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
