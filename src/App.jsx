@@ -1,4 +1,4 @@
-import HomePage from "./routes/homePage/homePage.jsx"
+import HomePage from "./routes/homePage/homePage.jsx";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -7,6 +7,8 @@ import ListPage from "./routes/listPage/listPage.jsx";
 import Layout from "./routes/layout/layout.jsx";
 import SinglePage from "./routes/SinglePage/singlePage.jsx";
 import ProfilePage from "./routes/profilePage/profilePage.jsx";
+import Login from "./routes/Login/login.jsx";
+import Register from "./routes/Register/Register.jsx";
 
 function App() {
 
@@ -30,6 +32,14 @@ function App() {
   {
     path:"/profile",
     element:<ProfilePage/>
+},
+{
+  path:"/login",
+  element:<Login/>
+},
+{
+  path:"/register",
+  element:<Register/>
 }
     ],
     }
